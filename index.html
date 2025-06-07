@@ -1,34 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>h.e.r.e.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>h.e.r.e. — Home of Embodied Real Encounters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Source Code Pro font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+      width: 100vw;
+      min-height: 100vh;
+      font-family: 'Source Code Pro', monospace;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+    .title {
+      font-size: clamp(2.5rem, 8vw, 7rem);
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin-top: 3vh;
+      margin-bottom: 0.5em;
+      user-select: text;
+    }
+    .subtitle {
+      font-size: clamp(1.1rem, 2.5vw, 2rem);
+      text-align: center;
+      margin-bottom: 3vh;
+      user-select: text;
+    }
+    .olmec-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1 1 auto;
+      width: 100vw;
+      min-height: 0;
+    }
+    .olmec-head {
+      font-family: 'Source Code Pro', monospace;
+      font-size: min(2vw, 10px);
+      line-height: 1.1;
+      letter-spacing: 0;
+      white-space: pre;
+      overflow-wrap: break-word;
+      color: #fff;
+      text-align: center;
+      user-select: text;
+      margin: 0 auto;
+      max-width: 100vw;
+      padding: 0 2vw;
+    }
+    @media (max-width: 600px) {
+      .olmec-head {
+        font-size: 6px;
+        padding: 0 1vw;
+      }
+      .title {
+        margin-top: 2vh;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div id="overlay-text">
-    <div id="main-word">h.e.r.e.</div>
-    <div id="meaning-text">Home of Embodied Real Encounters</div>
+  <div class="title">h.e.r.e.</div>
+  <div class="subtitle">Home of Embodied Real<br>Encounters</div>
+  <div class="olmec-container">
+    <pre class="olmec-head">
+      h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+    h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+      h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+        h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+        h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+      h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+    h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+    h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+      h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+        h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.h.e.r.e.
+    </pre>
   </div>
-  <pre id="ascii-head">
-                               h.e.r.e. h.e.r.e.                               
-                        h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.                    
-                    h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.               
-                h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.          
-            h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.     
-         h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.        
-       h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.          
-     h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.   
-   h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.     
-    h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.             
-     h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.                     
-       h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.                            
-         h.e.r.e. h.e.r.e. h.e.r.e. h.e.r.e.                                   
-            h.e.r.e. h.e.r.e. h.e.r.e.                                         
-                h.e.r.e. h.e.r.e.                                              
-                    h.e.r.e.                                                  
-  </pre>
 </body>
 </html>
